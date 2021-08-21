@@ -1,0 +1,8 @@
+<b>YAZARLAR LİSTELENECEK</b>
+<ul>
+ 
+    {% for author in authors_list %}
+    <li><a href="authordetails/{{author.id}}">{{author.name}}</a></li>
+    {% endfor %}
+
+</ul>
